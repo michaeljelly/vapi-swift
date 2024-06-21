@@ -3,10 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Vapi",
-    platforms: [
-        .iOS(.v13),
-        .macOS(.v12),
-    ],
+    platforms: [.iOS(.v13), .macOS(.v12), .visionOS(.v1), .watchOS(.v6)],
     products: [
         .library(
             name: "Vapi",
